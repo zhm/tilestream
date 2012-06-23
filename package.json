@@ -13,13 +13,13 @@
         "url": "http://github.com/mapbox/tilestream.git"
     }],
     "engines": {
-        "node": "0.4.x"
+        "node": "0.6.x"
     },
     "dependencies": {
         "bones": "1.3.x",
         "step": "0.0.4",
-        "tilelive": "~4.1.0",
-        "mbtiles": "~0.1.8",
+        "tilelive": "https://github.com/zhm/tilelive.js/tarball/node-0.6-cartodb",
+        "mbtiles": "0.2.6",
         "sphericalmercator": "1.0.0",
         "underscore": "1.1.x",
         "wax": "4.1.3",
